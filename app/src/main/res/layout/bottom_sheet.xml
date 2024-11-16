@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_rounded">
+    
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.google.android.material.bottomsheet.BottomSheetDragHandleView>
+
+    <FrameLayout
+        android:id="@+id/signout_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/button_bg">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:contentDescription="Button"
+                android:background="@color/yellow"
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logout"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/agrandir"
+                android:text="Sign-out"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/search_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:background="@drawable/button_bg">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:contentDescription="Button"
+                android:background="@color/yellow"
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/search"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/agrandir"
+                android:text="Seatch"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/about_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_bg">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:contentDescription="Button"
+                android:background="@color/yellow"
+                android:padding="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/info"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/agrandir"
+                android:text="About"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+
+
+</LinearLayout>

@@ -2,7 +2,7 @@
 Notes Application Using Firebase (Yellow Pages)
 
 # Description
-Easily manage your thoughts with Yellow Pages, a android app that lets you create, edit, and organize notes effortlessly.<br>
+Easily manage your thoughts with Yellow Pages, a android app that lets you create, edit, and organize notes effortlessly.
 Powered by Firebase, it ensures real-time sync, user authentication, and cross-device accessibility.
 
 # Features

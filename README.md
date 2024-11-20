@@ -18,7 +18,7 @@ Powered by Firebase, it ensures real-time sync, user authentication, and cross-d
 
 `▪ Floating Action Button`
 
-`▪ Draer Layout & Popup Window`
+`▪ Drawer Layout & Popup Window`
 
 `▪ Custom Toast Notifications`
 
